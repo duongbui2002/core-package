@@ -10,6 +10,12 @@ func NewRouteBuilder(echo *echo.Echo) *RouteBuilder {
 	return &RouteBuilder{echo: echo}
 }
 
+func (r *RouteBuilder) RegisterRoutes(builder func(e *echo.Echo)) *RouteBuilder {
+	builder(r.echo)
+
+	return r
+}
+
 func (r *RouteBuilder) RegisterGroupFunc(groupName string, builder func(g *echo.Group)) *RouteBuilder {
 	builder(r.echo.Group(groupName))
 
@@ -18,6 +24,7 @@ func (r *RouteBuilder) RegisterGroupFunc(groupName string, builder func(g *echo.
 
 func (r *RouteBuilder) RegisterGroup(groupName string) *RouteBuilder {
 	r.echo.Group(groupName)
+
 	return r
 }
 
