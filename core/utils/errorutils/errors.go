@@ -3,8 +3,8 @@ package errorutils
 import (
 	"emperror.dev/errors"
 	"fmt"
-	"github.com/duongbuidinh600/core-package/core/http/httperrors/contracts"
-	defaultLogger "github.com/duongbuidinh600/core-package/core/logger/external/defaultlogger"
+	"github.com/duongbui2002/core-package/core/http/httperrors/contracts"
+	defaultLogger "github.com/duongbui2002/core-package/core/logger/external/defaultlogger"
 	"runtime/debug"
 	"strings"
 )

@@ -2,8 +2,8 @@ package handlers
 
 import (
 	"emperror.dev/errors"
-	problemDetails "github.com/duongbuidinh600/core-package/core/http/httperrors/problemdetails"
-	"github.com/duongbuidinh600/core-package/core/logger"
+	problemDetails "github.com/duongbui2002/core-package/core/http/httperrors/problemdetails"
+	"github.com/duongbui2002/core-package/core/logger"
 	"github.com/labstack/echo/v4"
 )
 

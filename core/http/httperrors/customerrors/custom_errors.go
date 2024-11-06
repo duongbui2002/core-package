@@ -3,7 +3,7 @@ package customErrors
 import (
 	"emperror.dev/errors"
 	"fmt"
-	"github.com/duongbuidinh600/core-package/core/http/httperrors/contracts"
+	"github.com/duongbui2002/core-package/core/http/httperrors/contracts"
 	"io"
 )
 

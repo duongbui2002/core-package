@@ -2,7 +2,7 @@ package environment
 
 import (
 	"emperror.dev/errors"
-	"github.com/duongbuidinh600/core-package/core/constants"
+	"github.com/duongbui2002/core-package/core/constants"
 	"github.com/joho/godotenv"
 	"github.com/spf13/viper"
 	"log"

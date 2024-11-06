@@ -3,10 +3,10 @@ package gormextensions
 import (
 	"context"
 	"emperror.dev/errors"
-	"github.com/duongbuidinh600/core-package/core/postgresgorm/constants"
-	"github.com/duongbuidinh600/core-package/core/postgresgorm/contracts"
-	"github.com/duongbuidinh600/core-package/core/postgresgorm/scopes"
-	"github.com/duongbuidinh600/core-package/core/utils"
+	"github.com/duongbui2002/core-package/core/postgresgorm/constants"
+	"github.com/duongbui2002/core-package/core/postgresgorm/contracts"
+	"github.com/duongbui2002/core-package/core/postgresgorm/scopes"
+	"github.com/duongbui2002/core-package/core/utils"
 	"gorm.io/gorm"
 )
 

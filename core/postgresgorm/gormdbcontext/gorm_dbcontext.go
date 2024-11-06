@@ -3,8 +3,8 @@ package gormdbcontext
 import (
 	"context"
 
-	"github.com/duongbuidinh600/core-package/core/postgresgorm/contracts"
-	"github.com/duongbuidinh600/core-package/core/postgresgorm/helpers/gormextensions"
+	"github.com/duongbui2002/core-package/core/postgresgorm/contracts"
+	"github.com/duongbui2002/core-package/core/postgresgorm/helpers/gormextensions"
 	"gorm.io/gorm"
 )
 
@@ -12,7 +12,7 @@ type gormDBContext struct {
 	db *gorm.DB
 }
 
-func NewGormDBContext(db *gorm.DB)  contracts.GormDBContext {
+func NewGormDBContext(db *gorm.DB) contracts.GormDBContext {
 	c := &gormDBContext{db: db}
 
 	return c

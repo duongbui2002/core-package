@@ -1,9 +1,9 @@
 package fxapp
 
 import (
-	"github.com/duongbuidinh600/core-package/core/config"
-	"github.com/duongbuidinh600/core-package/core/logger/external/fxlog"
-	"github.com/duongbuidinh600/core-package/core/logger/logrous"
+	"github.com/duongbui2002/core-package/core/config"
+	"github.com/duongbui2002/core-package/core/logger/external/fxlog"
+	"github.com/duongbui2002/core-package/core/logger/logrous"
 	"time"
 
 	"go.uber.org/fx"

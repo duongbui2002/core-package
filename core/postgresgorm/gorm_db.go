@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"emperror.dev/errors"
 	"fmt"
-	gromlog "github.com/duongbuidinh600/core-package/core/logger/external/gorm"
+	gromlog "github.com/duongbui2002/core-package/core/logger/external/gorm"
 	gormPostgres "gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

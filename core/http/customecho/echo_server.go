@@ -3,17 +3,17 @@ package customecho
 import (
 	"context"
 	"fmt"
-	"github.com/duongbuidinh600/core-package/core/constants"
-	"github.com/duongbuidinh600/core-package/core/http/customecho/config"
-	"github.com/duongbuidinh600/core-package/core/http/customecho/contracts"
-	ipratelimit "github.com/duongbuidinh600/core-package/core/http/customecho/middlewares/ip_ratelimit"
-	"github.com/duongbuidinh600/core-package/core/http/customecho/middlewares/log"
-	problemdetail "github.com/duongbuidinh600/core-package/core/http/customecho/middlewares/problem_detail"
+	"github.com/duongbui2002/core-package/core/constants"
+	"github.com/duongbui2002/core-package/core/http/customecho/config"
+	"github.com/duongbui2002/core-package/core/http/customecho/contracts"
+	ipratelimit "github.com/duongbui2002/core-package/core/http/customecho/middlewares/ip_ratelimit"
+	"github.com/duongbui2002/core-package/core/http/customecho/middlewares/log"
+	problemdetail "github.com/duongbui2002/core-package/core/http/customecho/middlewares/problem_detail"
 	"github.com/labstack/echo/v4/middleware"
 
-	handlers "github.com/duongbuidinh600/core-package/core/http/customecho/handlers"
+	handlers "github.com/duongbui2002/core-package/core/http/customecho/handlers"
 
-	"github.com/duongbuidinh600/core-package/core/logger"
+	"github.com/duongbui2002/core-package/core/logger"
 	"github.com/labstack/echo/v4"
 	"strings"
 )

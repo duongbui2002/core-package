@@ -2,9 +2,9 @@ package postgresgorm
 
 import (
 	"fmt"
-	"github.com/duongbuidinh600/core-package/core/config"
-	"github.com/duongbuidinh600/core-package/core/config/environment"
-	typeMapper "github.com/duongbuidinh600/core-package/core/reflection/typemapper"
+	"github.com/duongbui2002/core-package/core/config"
+	"github.com/duongbui2002/core-package/core/config/environment"
+	typeMapper "github.com/duongbui2002/core-package/core/reflection/typemapper"
 	"github.com/iancoleman/strcase"
 	"path/filepath"
 )

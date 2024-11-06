@@ -2,8 +2,8 @@ package data
 
 import (
 	"context"
-	"github.com/duongbuidinh600/core-package/core/data/specification"
-	"github.com/duongbuidinh600/core-package/core/utils"
+	"github.com/duongbui2002/core-package/core/data/specification"
+	"github.com/duongbui2002/core-package/core/utils"
 	uuid "github.com/satori/go.uuid"
 )
 

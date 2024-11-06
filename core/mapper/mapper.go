@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"reflect"
 
-	defaultLogger "github.com/duongbuidinh600/core-package/core/logger/defaultlogger"
-	reflectionHelper "github.com/duongbuidinh600/core-package/core/reflection/reflectionhelper"
+	defaultLogger "github.com/duongbui2002/core-package/core/logger/defaultlogger"
+	reflectionHelper "github.com/duongbui2002/core-package/core/reflection/reflectionhelper"
 
 	"emperror.dev/errors"
 	"github.com/ahmetb/go-linq/v3"

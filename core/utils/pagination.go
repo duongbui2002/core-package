@@ -4,7 +4,7 @@ import (
 	"emperror.dev/errors"
 	"encoding/json"
 	"fmt"
-	"github.com/duongbuidinh600/core-package/core/mapper"
+	"github.com/duongbui2002/core-package/core/mapper"
 	"github.com/labstack/echo/v4"
 	"math"
 	"strconv"
@@ -164,7 +164,7 @@ func (q *ListQuery) GetOrderBy() string {
 func (q *ListQuery) GetPage() int {
 	return q.Page
 }
-	
+
 // GetSize Get OrderBy
 func (q *ListQuery) GetSize() int {
 	return q.Size

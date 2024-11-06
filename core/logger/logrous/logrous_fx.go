@@ -1,8 +1,8 @@
 package logrous
 
 import (
-	"github.com/duongbuidinh600/core-package/core/logger"
-	"github.com/duongbuidinh600/core-package/core/logger/config"
+	"github.com/duongbui2002/core-package/core/logger"
+	"github.com/duongbui2002/core-package/core/logger/config"
 	"go.uber.org/fx"
 )
 

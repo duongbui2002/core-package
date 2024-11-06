@@ -2,9 +2,9 @@ package fxapp
 
 import (
 	"context"
-	"github.com/duongbuidinh600/core-package/core/config/environment"
-	"github.com/duongbuidinh600/core-package/core/fxapp/contracts"
-	"github.com/duongbuidinh600/core-package/core/logger"
+	"github.com/duongbui2002/core-package/core/config/environment"
+	"github.com/duongbui2002/core-package/core/fxapp/contracts"
+	"github.com/duongbui2002/core-package/core/logger"
 	"go.uber.org/fx"
 )
 

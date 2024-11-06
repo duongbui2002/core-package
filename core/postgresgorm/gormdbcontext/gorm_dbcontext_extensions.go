@@ -3,12 +3,11 @@ package gormdbcontext
 import (
 	"context"
 	"fmt"
-	customErrors "github.com/duongbuidinh600/core-package/core/httperrors/customerrors"
-	"github.com/duongbuidinh600/core-package/core/logger/defaultlogger"
-	"github.com/duongbuidinh600/core-package/core/mapper"
-	"github.com/duongbuidinh600/core-package/core/postgresgorm/contracts"
-	"github.com/duongbuidinh600/core-package/core/postgresgorm/scopes"
-	typeMapper "github.com/duongbuidinh600/core-package/core/reflection/typemapper"
+	customErrors "github.com/duongbui2002/core-package/core/http/httperrors/customerrors"
+	"github.com/duongbui2002/core-package/core/mapper"
+	"github.com/duongbui2002/core-package/core/postgresgorm/contracts"
+	"github.com/duongbui2002/core-package/core/postgresgorm/scopes"
+	typeMapper "github.com/duongbui2002/core-package/core/reflection/typemapper"
 	"github.com/iancoleman/strcase"
 	uuid "github.com/satori/go.uuid"
 )

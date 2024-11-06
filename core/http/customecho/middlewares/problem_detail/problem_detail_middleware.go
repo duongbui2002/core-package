@@ -1,7 +1,7 @@
 package problemdetail
 
 import (
-	problemDetails "github.com/duongbuidinh600/core-package/core/http/httperrors/problemdetails"
+	problemDetails "github.com/duongbui2002/core-package/core/http/httperrors/problemdetails"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 )

@@ -2,7 +2,7 @@ package log
 
 import (
 	"fmt"
-	"github.com/duongbuidinh600/core-package/core/logger"
+	"github.com/duongbui2002/core-package/core/logger"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	"time"

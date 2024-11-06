@@ -2,7 +2,7 @@ package gromlog
 
 import (
 	"context"
-	"github.com/duongbuidinh600/core-package/core/logger"
+	"github.com/duongbui2002/core-package/core/logger"
 	"time"
 
 	gormlogger "gorm.io/gorm/logger"

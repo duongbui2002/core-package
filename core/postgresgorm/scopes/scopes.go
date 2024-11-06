@@ -3,8 +3,8 @@ package scopes
 import (
 	"context"
 	"fmt"
-	typeMapper "github.com/duongbuidinh600/core-package/core/reflection/typemapper"
-	"github.com/duongbuidinh600/core-package/core/utils"
+	typeMapper "github.com/duongbui2002/core-package/core/reflection/typemapper"
+	"github.com/duongbui2002/core-package/core/utils"
 	"gorm.io/gorm"
 	"strings"
 
