@@ -3,7 +3,7 @@ package data
 import (
 	"context"
 	"github.com/duongbui2002/core-package/core/data/specification"
-	"github.com/duongbui2002/core-package/core/utils"
+	"github.com/duongbui2002/core-package/utils"
 	uuid "github.com/satori/go.uuid"
 )
 
